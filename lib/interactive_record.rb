@@ -15,5 +15,5 @@ class InteractiveRecord
     column_names.compact
   end
   
-  self.column_names.each{|
+  self.column_names.each{|col_name| attr_accessor 
 end
