@@ -15,5 +15,7 @@ class InteractiveRecord
     column_names.compact
   end
   
-  
+  def initialize(hash)
+    hash.each{|
+  end
 end
