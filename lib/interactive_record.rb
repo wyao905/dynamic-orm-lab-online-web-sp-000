@@ -16,6 +16,6 @@ class InteractiveRecord
   end
   
   def initialize(hash)
-    hash.each{|
+    hash.each{|property, value| 
   end
 end
