@@ -15,7 +15,7 @@ class InteractiveRecord
     column_names.compact
   end
   
-  def initialize(hash)
+  def initialize(hash = {})
     hash.each{|property, value| self.send("#{property}", value)}
   end
 end
