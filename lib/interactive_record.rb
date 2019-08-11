@@ -16,6 +16,6 @@ class InteractiveRecord
   end
   
   def initialize(hash = {})
-    hash.each{|property, value| self.send("#{property}", value)}
+    hash.each{|property, value| self.send("#{property}=", value)}
   end
 end
